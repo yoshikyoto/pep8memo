@@ -79,3 +79,37 @@ numbers = [
     3,
 ]
 ```
+
+## 空行
+
+トップレベルの関数やクラスは2行の空行。クラス内の関数は1行の空行を挟む。
+
+```
+def add(value1, value2):
+    return value1 + vaue2
+
+
+def mult(value1, value2):  #空行2行
+    return value1 * value2
+
+
+class Square():
+    
+    def get_x(self):
+        return self.x
+
+    def get_y(self):
+        return self.y
+
+
+class Circle():
+
+    def get_r(self):
+        return self.r
+
+    def get_x(self)
+        return self.x
+```
+
+## import
+
